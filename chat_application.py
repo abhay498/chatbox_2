@@ -28,7 +28,7 @@ message=StringVar()
 message_box=Entry(root, textvariable=message, font=('calbre', 10, 'normal'), border=2, width=32)
 message_box.place(x=40,y=444)
 
-send_message_img = PhotoImage(file='send.png)
+send_message_img = PhotoImage(file='send.png')
 
 send_message_button=Button(root, image=start_chat_image, command=func,borderwidth=0)
 send_message_button.place(x=90, y=90)
